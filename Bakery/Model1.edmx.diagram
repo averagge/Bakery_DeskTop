@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="84a5b38fa1c14cb08d3e8a5f60b7a69a" Name="Diagram1">
+        <EntityTypeShape EntityType="bakeryModel.client" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.component" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.composition" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.good" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.goods_in_stock" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.order_composition" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.order" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.staff" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakeryModel.user" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="bakeryModel.FK__clients__login__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__compositi__compo__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__compositi__good___72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__goods_in___good___6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__order_com__good___76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__order_com__order__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__orders__user_log__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="bakeryModel.FK__staff__login__6FE99F9F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

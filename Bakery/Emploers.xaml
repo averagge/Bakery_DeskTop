@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="Bakery.Emploers"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Bakery"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="3 5 3 5"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+           
+        </Style>
+    </UserControl.Resources>
+    <StackPanel Grid.Column="0" Background="#FF702A" Orientation="Horizontal" Margin="15 15 15 0">
+        <TextBlock Name="surname" Text=""></TextBlock>
+        <TextBlock Name="name" Text=""></TextBlock>
+        <TextBlock Text="Логин:"></TextBlock>
+        <TextBlock Name="login" Text=""></TextBlock>
+        <TextBlock Text="Почта:"></TextBlock>
+        <TextBlock Name="email" Text=""></TextBlock>
+        <TextBlock Text="Телефон:"></TextBlock>
+        <TextBlock Name="phone" Text=""></TextBlock>
+    </StackPanel>
+</UserControl>
